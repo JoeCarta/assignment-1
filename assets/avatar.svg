@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Avatar illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="url(#bg)"/>
+  <circle cx="100" cy="78" r="34" fill="#e0e7ff"/>
+  <path d="M40 168c0-33 27-52 60-52s60 19 60 52z" fill="#e0e7ff"/>
+  <text x="100" y="190" text-anchor="middle" font-family="Arial, sans-serif"
+        font-size="22" font-weight="bold" fill="#ffffff">JC</text>
+</svg>
