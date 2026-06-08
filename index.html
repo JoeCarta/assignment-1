@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joseph Cartafalsa — Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">Joseph Cartafalsa</div>
+    <nav class="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="about">
+      <img class="avatar" src="assets/avatar.svg" alt="Avatar of Joseph Cartafalsa" width="160" height="160">
+      <div class="about-text">
+        <h1>Hi, I'm Joseph.</h1>
+        <p class="lead">
+          I'm a computer science student at Hunter College who enjoys building things
+          for the web. I'm currently learning the fundamentals of HTML, CSS, and the
+          Git/GitHub workflow — this page is one of my first hand-written sites.
+        </p>
+        <p>
+          When I'm not coding, you'll find me exploring New York City, sketching out
+          ideas for side projects, and figuring out how things work under the hood.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <p>A few things I've been working on while learning to build for the web:</p>
+      <ul class="project-list">
+        <li>
+          <h3>Personal Portfolio</h3>
+          <p>This site — a responsive, hand-written portfolio built with semantic
+            HTML and CSS, using a proper Git feature-branch workflow.</p>
+        </li>
+        <li>
+          <h3>NYC City Simulator (Civ VI Mod)</h3>
+          <p>A hobby modding project turning New York City into a playable urban
+            simulator with custom districts and buildings.</p>
+        </li>
+        <li>
+          <h3>Course Exercises</h3>
+          <p>Small practice programs and web pages from my computer science
+            coursework at Hunter College.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>Have a question or want to work together? Send me a message.</p>
+      <form class="contact-form" action="#" method="post">
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+        </div>
+        <button type="submit">Send message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Joseph Cartafalsa &middot; Built for CSCI 39548 at Hunter College.</p>
+  </footer>
+</body>
+</html>
